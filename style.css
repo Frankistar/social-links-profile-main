@@ -26,11 +26,16 @@ body {
   max-width: 375px;
 }
 img {
-  border-radius: 50%;
   width: 100px;
   height: 100px;
   pointer-events: none;
   user-select: none;
+}
+.img-div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .clip {
   padding: 1.5rem 2rem;
